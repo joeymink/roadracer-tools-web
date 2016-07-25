@@ -1,5 +1,7 @@
 <html>
   <head>
+    <script   src="https://code.jquery.com/jquery-3.1.0.slim.min.js" integrity="sha256-cRpWjoSOw5KcyIOaZNo4i6fZ9tKPhYYb6i5T9RSVJG8=" crossorigin="anonymous"></script>
+
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -10,11 +12,54 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   </head>
   <body class="container">
+
+  <div class="col-md-offset-2 col-md-8">
+
     <h1>Roadracer Tools</h1>
 
     <p class="lead">Online tools for Motorcycle roadracers</p>
 
-    <p>Amateur roadracing is awesome, but there's a lot of room for improvement. Dissemination of grids and results, evaluation and access to laptimes -- all this needs a paint stroke from modern technology and internet software. While an extremely modest at this point, roadracer-tools.com take aim at these problems and tries to improve the experience!</p>
+    <p>Amateur roadracing is awesome, but there's a lot of room for improvement. Dissemination of grids and results, evaluation and access to laptimes -- all this needs a paint stroke from modern technology and internet software. While an extremely modest at this point, roadracer-tools.com takes aim at these problems and tries to improve the experience!</p>
+
+    <!-- Nav tabs -->
+    <ul class="nav nav-tabs" role="tablist">
+      <li role="presentation" class="active"><a href="#aftertherace" aria-controls="home" role="tab" data-toggle="tab">After The Race</a></li>
+      <li role="presentation"><a href="#roadracerresults" aria-controls="profile" role="tab" data-toggle="tab">Roadracer Results</a></li>
+    </ul>
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+      <div role="tabpanel" class="tab-pane active" id="aftertherace">
+        <h2 class="text-center">After The Race <br><small>(aka atr.tools)</small></h2>
+
+        <p>After The Race (atr.tools) is a full-fledged lap time evaluation tools. Create an account, upload your race or track sessions, and evaluation your performance over time. View your best and average laps by track and date.</p>
+
+        <div class="alert alert-info text-center" role="alert">
+          <a href="http://atr.tools" target="_blank">
+            <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span>
+            Check out <strong>After The Race</strong>
+          </a>
+        </div>
+
+      </div>
+
+      <div role="tabpanel" class="tab-pane" id="roadracerresults">
+        <h2 class="text-center">Roadracer Results <br><small>Google Chrome Extension</small></h2>
+
+        <p><a href="http://motolaptimes.com">Motolaptimes.com</a> is an awesome resource for CCS/ASRA racers. But the content is very segregated and it's difficult to view a race's results across riders. This Google Chrome browser extension enhances motolaptimes.com and shows all riders laps together, as well as some cool lap plots!</p>
+
+        <div class="alert alert-info text-center" role="alert">
+          <a href="https://chrome.google.com/webstore/detail/roadracer-results/eniadbjhleebmkhmcholnknpmeophgpg" target="_blank">
+            <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span>
+            Check out the <strong>Roadracer Results Chrome Extension</strong>
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+
+    </div>
 
   </body>
 </html>
